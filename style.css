@@ -1,0 +1,79 @@
+html
+{
+    box-sizing: border-box;
+
+}
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+/*header y navegacion*/
+.nombre-sitio{
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+ .nombre-sitio span
+ {
+    color: #B85C38;
+
+ }
+ .contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+}
+ .nav-principal{
+ 
+     padding: 20px 0;
+     display: flex;
+     justify-content: space-between;
+     
+
+ }
+/*box model*/
+.hero{
+    background-image: url('Imagenes Ecommerce/principal.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/*categorias*/
+.categorias h2{
+    text-align: center;
+}
+.categorias a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.categorias a:hover{
+background-color: #B85C38;
+color: beige;
+border-bottom-right-radius: 10px;
+}
+.listado-categorias{
+display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+
+
+}
